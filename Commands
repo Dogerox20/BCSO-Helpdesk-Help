@@ -1,1 +1,6 @@
+Whitelisted Commands:
 
+/authpit - Grants the specific user a pit certification, usually granted after a EVOC training.
+/authrifle - Grants the specific user a rifle certification, usually issued after a standard LEO traninig.
+/deauthpit - Revokes the specific user their pit certification.
+/deauthrifle - Revokes the specific user their rifle certification.
