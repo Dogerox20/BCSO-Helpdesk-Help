@@ -1,4 +1,4 @@
-## 📅 BCSO Helpdesk Bot Changelog – [Today’s Date]
+## 📅 BCSO Helpdesk Bot Changelog – [3/23/25]
 
 ---
 
