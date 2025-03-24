@@ -1,10 +1,18 @@
 Whitelisted Commands:
 
-/authpit - Grants the specific user a pit certification, usually granted after a EVOC training.
-/authrifle - Grants the specific user a rifle certification, usually issued after a standard LEO traninig.
-/deauthpit - Revokes the specific user their pit certification.
-/deauthrifle - Revokes the specific user their rifle certification.
+/authpit - Grants the specific user a PIT certification, usually granted after an EVOC training.
+/authrifle - Grants the specific user a Rifle certification, usually issued after a standard LEO training.
+/deauthpit - Revokes the specific user's PIT certification.
+/deauthrifle - Revokes the specific user's Rifle certification.
+/blacklist - Prevents a user from using /clockin or /clockout with a reason.
+/unblacklist - Removes a user's blacklist and notifies them they can clock in/out again.
+/forcetime - Manually sets a user's total time on the General-Membership sheet.
+/reverttime - Reverts a user's time back to before their last clockout.
+/forceclockout - Forces a clockout for a specific user.
 
-Global Commands:
+Non-Whitelisted Commands:
 
-Coming soon..
+/checkid - Checks if a Discord ID exists in the system.
+/clockin - Starts tracking time for a user and adds it to the ActiveClockins sheet. ~ MUST BE DEUPTY SHERIFF+
+/clockout - Ends a user's shift, logs the time, asks a post-shift survey, and updates totals. ~ MUST BE DEUPTY SHERIFF+
+/help - Sends the user a DM with a link to the help documentation and relevant channels.
